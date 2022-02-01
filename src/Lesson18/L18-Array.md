@@ -36,7 +36,7 @@ someArray = new int[3][];
 Такой синтаксис объясняется тем, что мы точно знаем количество одномерных массивов (3), но не знаем их размер. Поэтому второй параметр мы не указываем, всё ок :) В файле DynamicInit рассмотрено, как присвоить значения такому массиву.
 
 ##3. И третий этап — **initialization**. 
-Иницаиализация, как мы поняли,  бывает [статическая](/StartArray.java) и [динамическая](DynamicInit.java). Подробнее прописано в коде. В самом общем смысле статическое распределение означает, что определенный размер был предопределен, возможно, во время компиляции.
+Иницаиализация, как мы поняли,  бывает статическая и динамическая. Подробнее прописано в коде. В самом общем смысле статическое распределение означает, что определенный размер был предопределен, возможно, во время компиляции.
 
 # Смешанные варианты создания массива
 - ```int[] array3 = new int[7]; // инициализация не происходит```
@@ -66,13 +66,13 @@ someArray = new int[3][];
 
 
 Иерархия файлов (от баз к более сложному):
-1. [StartArray](/StartArray.java)
-2. [DynamicInit](/DynamicInit.java)
-3. [StartException](/StartException.java)
-4. [ClassArrays](/ClassArrays.java)
-5. [ArrayCompare](/ArrayCompare.java)
-6. [MinMaxTask](/MinMaxTask.java)
-7. [StringSupplement](/StringSupplement.java)
+1. StartArray
+2. DynamicInit
+3. StartException
+4. ClassArrays
+5. ArrayCompare
+6. MinMaxTask
+7. StringSupplement
 
 
 

@@ -12,6 +12,7 @@ public class Employee {
 
     Employee(String surname3, int age3) { // хоть констукторы названы одинаково, но у них разный параметр-лист и разные операции
         this(0, surname3, age3, 0.0, null);
+
     }
 
     Employee(int id4, String surname4, int age4, double salary4, String department4) { // подробное описание работы с конструкторами смотри в конспекте по уроку

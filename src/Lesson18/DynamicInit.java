@@ -18,12 +18,12 @@ public class DynamicInit {
         }
         System.out.println(); // разделитель вывода
 
-        //задаем длину кадждого одномерного массива внутри двумерного arrayTwo
+        //задаем длину каждого одномерного массива внутри двумерного arrayTwo
         arrayTwo[0] = new int[5];
         arrayTwo[1] = new int[2];
         arrayTwo[2] = new int[7];
 
-        //присваиваем знаения
+        //присваиваем значения
         for(int i = 0; i<arrayTwo.length; i++) {
             for(int j = 0; j<arrayTwo[i].length; j++) {
                 arrayTwo[i][j] = i+j;

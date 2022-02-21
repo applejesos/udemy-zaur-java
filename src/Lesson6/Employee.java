@@ -23,11 +23,44 @@ public class Employee {
         department = department4;
     }
 
+    Employee((int id5, String surname5, int age5) {
+        id = id5;
+        surname = surname5;
+        age = age5;
+        salary = salary5;
+        department = department;
+    }
+
+    public Employee() {
+
+    }
+
+    private Employee() {
+
+    }
+
+
+
+
+
+
     String surname;
-    String department;
+    public String department;
     int id;
     int age;
-    double salary;
+    ptivate double salary;
+
+    public void getId() {
+        System.out.println("ID: " + id);
+    }
+
+    public void getSurname() {
+        System.out.println("Surname: " + surname);
+    }
+
+    public void getSalary() {
+        System.out.println("Salary: " + salary);
+    }
 }
 class EmlpoyeeTest {
     public static void main(String[] args) {

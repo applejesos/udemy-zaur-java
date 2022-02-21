@@ -9,11 +9,11 @@ package HW;
  */
 
 public class L5Employee {
-    String surname;
+    public String surname;
     String department;
     int id;
     int age;
-    double salary;
+    private double salary;
 
     L5Employee(String surname2, String department2, int id2, int age2, double salary2){
         surname = surname2;
@@ -26,6 +26,30 @@ public class L5Employee {
     double salaryUp() {
         salary *= 2;
         return salary;
+    }
+
+    public L5Employee(int id3) {
+        id = id3;
+    }
+
+    public L5Employee(String surname3) {
+        surname = surname3;
+    }
+
+    private L5Employee(double salary) {
+        salary = salary3;
+    }
+
+    public void getId() {
+        System.out.println("ID: " + id);
+    }
+
+    public void getSurname() {
+        System.out.println("Surname: " + surname);
+    }
+
+    public void getSalary() {
+        System.out.println("Salary: " + salary);
     }
 }
 

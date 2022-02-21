@@ -8,6 +8,7 @@ public class Employee {
     }
 
     private Employee(double salary2) {
+
         salary = salary2;
     }
 
